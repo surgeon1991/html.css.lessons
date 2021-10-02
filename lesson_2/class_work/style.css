@@ -1,0 +1,74 @@
+/* Общие стили */
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* стили хэдера */
+header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+/* стили навигации */
+.main-menu {
+  background-color: blue;
+}
+.main-menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+
+/* стили контентной части */
+.content {
+  display: flex;
+}
+section {
+  background-color: aqua;
+  flex: 4; /*работает,   когда не так много блоков */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  background-color: springgreen;
+  padding: 15px;
+  margin: 10px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+/* стили сайдбара */
+.side-bar-right {
+  background-color: violet;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.news {
+  background-color: purple;
+}
+/* стилифутера */
+footer {
+  background-color: chartreuse;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
